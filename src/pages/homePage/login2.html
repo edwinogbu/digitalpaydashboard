@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+	  <!-- Bootstrap CSS -->
+	  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+	  <!-- Bootstrap JS and jQuery -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+	  <!-- Custom CSS -->
+	  <link rel="stylesheet" href="./styles.css">
+	
+	  <!-- Google Fonts -->
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+	
+	  <style>
+		/* .caption-left {
+		  position: absolute;
+	  top: -100%;
+	  left: 10%;
+	  right: -80%;
+	  bottom: -100;
+	  transform: translate(0%, -60%);
+	  text-align: left;
+	  background: rgba(0, 0, 0, 0.5);
+	  padding: 50px;
+	  border-radius: 10px;
+	  width:300px;
+	} */
+	.carousel-text {
+	 
+	  background: rgba(0, 0, 0, 0.5);
+	  padding: 50px;
+	  border-radius: 10px;
+	}
+	
+	.testimonial-content {
+	  position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+	  width: 100%;
+	}
+	
+	.carousel-inner {
+	  display: flex;
+	  flex-direction: row;
+	}
+	
+	.carousel-item {
+	  width: 100%;
+	}
+	
+	.carousel-item img {
+	  width: 100%;
+	}
+	
+	
+	
+	.hero {
+	  position: relative;
+	  overflow: hidden;
+	}
+	
+	.carousel-item {
+	  height: 100vh; /* Adjust this to fit your design */
+	  background-size: cover;
+	  background-position: center;
+	}
+	
+	.carousel-inner {
+	  position: relative;
+	}
+	
+	.hero-content {
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  z-index: 1;
+	}
+	
+	
+	.caption-left {
+		  position: absolute;
+	  top: -70%;
+	  left: -70%;
+	  right: -70%;
+	  bottom: -70;
+	  transform: translate(-20%, -10%);
+	  text-align: left;
+	  background: rgba(0, 0, 0, 0.5);
+	  padding: 50px;
+	  border-radius: 10px;
+	  width:300px;
+	} 
+	/* .carousel-text {
+	 
+	 background: rgba(0, 0, 0, 0.5);
+	 padding: 50px;
+	 border-radius: 10px;
+	} */
+	
+	
+	  </style>
+</head>
+
+
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <!-- <header class="header col-sm-8 offset-sm-4" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="32" height="32" alt="Cryptex logo">
+        Digital PayOut
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>Back</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+
+
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      
+      <a href="login.html" class="btn btn-outline">Account</a>
+      <a href="register.html" class="btn btn-outline">Register</a>
+      <a href="login.html" class="btn btn-outline">Wallet</a>
+
+    </div>
+  </header>
+ -->
+
+
+
+
+  <main>
+    <article>
+
+
+		<div class="container-fluid mt-5">
+			<div class="row mt-5">
+				<div class="col-lg-6 form-block px-4 mg-5">
+					<div class="col-lg-8 col-md-6 col-sm-8 col-xs-12 form-box"   style="background-image: url('./assets/images/testimonial/crt4.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; border:2px solid white;">
+						<div class="text-center mb-3 mt-5 ">
+							<img  src="./assets//images/instruction-4.png" width="150px">
+						</div>
+						<h4 class="text-center mb-4 text-white">
+							Login into account
+						</h4>
+						<form method="" action="" enctype="" class="mx-5" >
+							<div class="form-input">
+								<span class="mx-4 text-white "><i class="fa fa-envelope-o p-2"></i></span>
+								<input type="email" name="" placeholder="Email Address" class="p-2 text-center text-white" tabindex="10"required>
+							</div>
+							<div class="form-input">
+								<span class="mx-4 text-white"><i class="fa fa-key p-2"></i></span>
+								<input type="password" name="" placeholder="Password" required class="p-2 text-center">
+							</div>
+								
+							<div class="mb-3 d-flex align-items-center">
+								<div class="custom-control custom-checkbox">
+									<input type="checkbox" class="custom-control-input" id="cb1">
+									<label class="custom-control-label text-white" for="cb1">Remember me</label>
+								</div>
+							</div>
+	
+							<div class="mb-3"> 
+								<button type="submit" class="btn btn-block text-white p-3 bold">
+									Login
+								</button>
+							</div>
+	
+							<div class="text-right ">
+								<a href="reset.html" class="forget-link  text-white">
+									Forgot password?
+								</a>
+							</div>
+	
+							<div class="text-center mb-3  text-white p-5 m-5">
+								or login with
+							</div>
+								
+							<div class="row mb-3">
+								<div class="col-4">
+									<a href="" class="btn btn-block btn-social btn-facebook">
+										<i class="fa fa-facebook  text-white"></i>
+									</a>
+								</div>
+	
+								<div class="col-4">
+									<a href="" class="btn btn-block btn-social btn-google">
+										<i class="fa fa-google  text-white"></i>
+									</a>
+								</div>
+								
+								<div class="col-4">
+									<a href="" class="btn btn-block btn-social btn-twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</div>
+							</div>
+								
+							<div class="text-center mb-5  text-white">
+								Don't have an account? 
+								<a class="register-link  text-white" href="register.html  text-white">Register here</a>
+							</div>
+						</form>
+					</div>
+				</div>
+	
+				<div class="col-lg-6 d-none d-lg-block image-container">
+					<header class="header " data-header>
+						<div class="container">
+					
+						  <a href="index2.html" class="logo">
+							<img src="./assets/images/logo.svg" width="32" height="32" alt="Cryptex logo">
+							Digital PayOut
+						  </a>
+					
+						  <nav class="navbar" data-navbar>
+							<ul class="navbar-list">
+					
+							  <!-- <li class="navbar-item">
+								<a href="index.html" class="navbar-link" data-nav-link>Back</a>
+							  </li> -->
+					
+							  <li class="navbar-item">
+								<a href="#" class="navbar-link" data-nav-link></a>
+							  </li>
+					
+							  <li class="navbar-item">
+								<a href="#" class="navbar-link" data-nav-link></a>
+							  </li>
+					
+					
+					
+							  <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+								<span class="line line-1"></span>
+								<span class="line line-2"></span>
+								<span class="line line-3"></span>
+							  </button>
+						
+							  
+							  <!-- <a href="login.html" class="btn btn-outline">Account</a> -->
+							  <a href="register2.html" class="btn btn-outline">Register</a>
+							  <a href="login2.html" class="btn btn-outline">Wallet</a>
+							</ul>
+						  </nav>
+					
+					
+						</div>
+					  </header>
+					
+					
+				</div>
+			</div>
+		</div>
+	
+        
+
+
+    </article>
+  </main>
+
+
+
+
+  +!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer"  >
+
+	  <div class="footer-bottom" style="color:#fff;">
+
+	  
+      <div class="container">
+		<ul class="footer-list">
+	  
+			<li>
+			  <p class="footer-list-title">Products</p>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Spot</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Inverse Perpetual</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">USDT Perpetual</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Exchange</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Launchpad</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Digital Wallet</a>
+			</li>
+	
+		  </ul>
+	
+		  <ul class="footer-list" style="color:#fff;">
+	
+			<li>
+			  <p class="footer-list-title">Services</p>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Buy Crypto</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Markets</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Trading Fee</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Affiliate Program</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Referral Program</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">API</a>
+			</li>
+	
+		  </ul>
+	
+		  <ul class="footer-list" style="color:#fff;">
+	
+			<li>
+			  <p class="footer-list-title">Support</p>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Digital Payout Academy</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Help Center</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">User Feedback</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Submit a request</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">API Documentation</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Trading Rules</a>
+			</li>
+	
+		  </ul>
+	
+		  <ul class="footer-list" style="color:#fff;">
+	
+			<li>
+			  <p class="footer-list-title">About Us</p>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">About Digital Payout</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Authenticity Check</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Careers</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Business Contacts</a>
+			</li>
+	
+			<li>
+			  <a href="#" class="footer-link">Blog</a>
+			</li>
+	
+		  </ul>
+	
+		  <ul class="social-list">
+			<p class="copyright">
+			  &copy; 2022 Digital Payout All Rights Reserved by <a href="#" class="copyright-link">yourname</a>
+			</p>
+	  
+  
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+  
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+  
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+  
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+  
+        </ul>
+  
+      </div>
+    </div>
+  
+  </footer>
+  
+
+
+<script>
+  $(document).ready(function() {
+  $('#carouselExampleIndicators').carousel();
+});
+
+</script>
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

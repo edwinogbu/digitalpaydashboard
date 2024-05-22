@@ -1,0 +1,113 @@
+/* SideBar.css */
+
+.sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #2c3e50; 
+    color: #ecf0f1; 
+    overflow-x: hidden;
+    transition: all 0.3s;
+  } */
+  
+  /* .sidebar-inner {
+    padding: 20px;
+  }
+  
+  .sidebar-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-menu ul li {
+    padding: 15px 20px;
+    margin: 0;
+  }
+  
+  .sidebar-menu ul li a {
+    text-decoration: none;
+    color: inherit; 
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+  }
+  
+  .sidebar-menu ul li a i {
+    margin-right: 10px;
+  }
+   */
+  /* .sidebar-menu ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+  }
+  
+  .sidebar-menu ul li a.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+  }
+  
+
+
+
+  /* SideBar.css */
+
+.sidebar {
+    width: 270px;
+    position: fixed;
+    top: 30;
+    left: 0;
+    height: 100%;
+    overflow-x: hidden;
+    transition: all 0.3s;
+  }
+  
+  .sidebar-inner {
+    padding: 20px;
+  }
+  
+  .sidebar-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-menu ul li {
+    padding: 15px 20px;
+    margin: 0;
+  }
+  
+  .sidebar-menu ul li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+  }
+  
+  .sidebar-menu ul li a i {
+    margin-right: 10px;
+  }
+  
+  .sidebar-menu ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+  }
+  
+  .sidebar-menu ul li a.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+  }
+  
+  .track-portfolio, .need-btn, .logout-btn {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .track-portfolio img, .need-btn img, .logout-btn img {
+    margin-bottom: 10px;
+  }
+  
+  .track-portfolio h4, .track-portfolio p {
+    margin: 10px 0;
+  }
+   
